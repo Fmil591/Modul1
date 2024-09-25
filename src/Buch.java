@@ -16,7 +16,7 @@ public class Buch extends Medium{
 		this.isbn = isbn;
 	}
 	
-	public void anzeigen()//Überschreiben der Mutterklassenmethode
+	public void anzeigen()//ï¿½berschreiben der Mutterklassenmethode
 	{
 		super.anzeigen();
 		System.out.println("[Buch] : ISBN -> " + this.getIsbn());
