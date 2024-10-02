@@ -26,7 +26,7 @@ public class VHS extends Medium {
 		this.qualität = qualität;
 	}
 	
-	public void anzeigen() //�berschreiben der Mutterklassenmethode
+	public void anzeigen() //überschreiben der Mutterklassenmethode
 	{
 		super.anzeigen();
 		System.out.println("[VHS] Spieldauer -> " + this.getSpieldauer() + " Qualit�t -> " + this.getQualität());

@@ -16,7 +16,7 @@ public class Medienbibliothek {
 	}
 	
 	/*
-	 * Ausgabe aller Medien in der Bibliothek �ber Methodenpolymorphie
+	 * Ausgabe aller Medien in der Bibliothek über Methodenpolymorphie
 	 */
 	public void alleMedienAusgeben()
 	{
@@ -28,8 +28,8 @@ public class Medienbibliothek {
 	}
 	
 	/*
-	 * Methode, die die generische Liste durchl�uft und nur VHS aussucht,
-	 * und diesen dann als eigene Liste zur�ckgibt.
+	 * Methode, die die generische Liste durchläuft und nur VHS aussucht,
+	 * und diesen dann als eigene Liste zurückgibt.
 	 * Zweck: Illustration der Funktionsweise des instanceof Operators.
 	 */
 	public ArrayList<VHS> alleVHSalsListe()
